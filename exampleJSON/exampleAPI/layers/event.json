@@ -1,0 +1,12 @@
+{
+  "event" : [
+    {
+      "show":true,
+      "backgroundImg":"http://localhost:8888/exampleDB/event.png",
+      "desc":"Lorem ipsum dolor sit amet",
+      "href":"/",
+      "timer":true,
+      "time":1546683000
+    }
+  ]
+}

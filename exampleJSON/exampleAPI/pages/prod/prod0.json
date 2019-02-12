@@ -1,0 +1,55 @@
+{
+  "prod":[
+    {
+      "prodId": "x1",
+      "prodName":"Product 1",
+      "isAvailable" : true,
+      "price":"2000",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, leo eu condimentum fringilla, eros ipsum malesuada arcu, eu pharetra turpis erat quis tellus. Proin a finibus urna. Nullam venenatis blandit erat scelerisque gravida. Curabitur sed cursus lacus. Duis a magna semper, commodo risus at, volutpat magna. Cras tincidunt ultrices eros, et facilisis eros semper et. Morbi eu ornare odio. Sed bibendum lectus fringilla massa aliquam suscipit ut et est. Sed malesuada commodo nisl, ut sollicitudin urna tempus at. Quisque non convallis massa. Maecenas tincidunt felis ante, nec fringilla ipsum tincidunt a.Vestibulum fringilla posuere leo, eu pretium sapien egestas a. Quisque finibus neque quis sagittis auctor. Nulla tempor, leo et ullamcorper suscipit, arcu dui suscipit tortor, sit amet ultrices velit velit eleifend elit. Suspendisse tincidunt, odio at feugiat convallis, libero nisl lacinia justo, at pellentesque odio dui at libero. Vivamus finibus viverra justo a rhoncus. Donec metus lectus, tristique nec dui quis, faucibus tempor leo. Nunc quis pellentesque lacus. Morbi vehicula odio non lacinia laoreet.",
+      "photos" : "http://localhost:8888/exampleDB/prods/react-",
+      "colors" : ["black","white"],
+      "sizes" : [],
+      "suggestion":[
+        {
+          "id": "lm001",
+          "name": "Prod 1",
+          "title_cat": "title 1",
+          "available": false,
+          "title": "Title 1",
+          "desc" : "lurem 1",
+          "img": "http://localhost:8888/exampleDB/prods/react.png",
+          "order": 0,
+          "href": "/prod0",
+          "oldPrice":5000,
+          "newPrice":3000
+        },
+        {
+          "id": "lm002",
+          "name": "Prod 2",
+          "title_cat": "title 2",
+          "available": false,
+          "title": "Title 2",
+          "desc" : "lurem 2",
+          "img": "http://localhost:8888/exampleDB/prods/react.png",
+          "order": 1,
+          "href": "/prod1",
+          "oldPrice":5000,
+          "newPrice":3000
+        },
+        {
+          "id": "lm003",
+          "name": "Prod 3",
+          "title_cat": "title 2",
+          "available": true,
+          "title": "Title 2",
+          "desc" : "lurem 3",
+          "img": "http://localhost:8888/exampleDB/prods/react.png",
+          "order": 2,
+          "href": "/prod2",
+          "oldPrice":5000,
+          "newPrice":3000
+        }
+      ]
+    }
+  ]
+}

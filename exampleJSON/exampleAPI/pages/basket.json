@@ -1,0 +1,20 @@
+{
+	"basket" : [
+		{
+			"id" : 0,
+			"name" : "prod1",
+			"price" : "4000",
+			"count" : "5" ,
+			"href" : "/prod0",
+			"imgUrl" : "http://localhost:8888/exampleDB/p1.jpg"
+		},
+		{
+			"id" : 1,
+			"name" : "prod2",
+			"price" : "3000",
+			"count" : "2" ,
+			"href" : "/prod1",
+			"imgUrl" : "http://localhost:8888/exampleDB/p2.jpeg"
+		}
+	]
+}

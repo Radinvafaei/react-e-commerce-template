@@ -1,0 +1,16 @@
+noscript{
+    text-align: center;
+}
+noscript div{
+    border: .5px solid black;
+    max-width: 400px;
+    background-color: #828283;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#root{
+    padding-left: -15px;
+    padding-right: -15px;
+}

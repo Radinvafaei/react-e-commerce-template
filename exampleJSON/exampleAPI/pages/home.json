@@ -1,0 +1,155 @@
+{
+  "home": [
+    {
+      "carousel" : [
+        {
+          "id" : 0,
+          "description" : "prod 1",
+          "imgSrc" : "http://localhost:8888/exampleDB/carousel/carousel.png"
+        },
+        {
+          "id" : 1,
+          "description" : "prod 2",
+          "imgSrc" : "http://localhost:8888/exampleDB/carousel/carousel.png"
+        },
+        {
+          "id" : 2,
+          "description" : "prod 3",
+          "imgSrc" : "http://localhost:8888/exampleDB/carousel/carousel.png"
+        }
+      ],
+      "items" : [
+        {
+          "id":0,
+          "catDesc":"first prod",
+          "items":[
+            {
+              "id": "lm001",
+              "name": "Prod 1",
+              "title_cat": "title 1",
+              "available": false,
+              "title": "Principal Landscape Title 1",
+              "desc" : "lurem 1",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 0,
+              "href": "/prod0",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm002",
+              "name": "Prod 2",
+              "title_cat": "designer",
+              "available": false,
+              "title": "landscape designer",
+              "desc" : "lurem 2",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 1,
+              "href": "/prod1",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm003",
+              "name": "Prod 3",
+              "title_cat": "designer",
+              "available": true,
+              "title": "LANDSCAPE DESIGNER",
+              "desc" : "lurem 3",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 2,
+              "href": "/prod2",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm004",
+              "name": "Prod 4",
+              "title_cat": "designer",
+              "available": false,
+              "title": "HORTICULTURIST",
+              "desc" : "lurem 4",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 3,
+              "href": "/prod3",
+              "oldPrice":5000,
+              "newPrice":3000
+            }
+          ]
+        },
+        {
+          "id":1,
+          "catDesc":"second prod",
+          "items":[
+            {
+              "id": "lm001",
+              "name": "Prod 1",
+              "title_cat": "title 1",
+              "available": false,
+              "title": "Principal Landscape Title 1",
+              "desc" : "lurem 1",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 0,
+              "href": "/prod0",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm002",
+              "name": "Prod 2",
+              "title_cat": "designer",
+              "available": false,
+              "title": "landscape designer",
+              "desc" : "lurem 2",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 1,
+              "href": "/prod1",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm003",
+              "name": "Prod 3",
+              "title_cat": "designer",
+              "available": true,
+              "title": "LANDSCAPE DESIGNER",
+              "desc" : "lurem 3",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 2,
+              "href": "/prod2",
+              "oldPrice":5000,
+              "newPrice":3000
+            },
+            {
+              "id": "lm004",
+              "name": "Prod 4",
+              "title_cat": "designer",
+              "available": false,
+              "title": "HORTICULTURIST",
+              "desc" : "lurem 4",
+              "img": "http://localhost:8888/exampleDB/prods/react.png",
+              "order": 3,
+              "href": "/prod3",
+              "oldPrice":5000,
+              "newPrice":3000
+            }
+          ]
+        }
+      ],
+      "tops" : [
+        {
+          "id":0,
+          "img":"http://localhost:8888/exampleDB/b.jpg",
+          "desc":"lurem",
+          "href":"/"
+        },
+        {
+          "id":1,
+          "img":"http://localhost:8888/exampleDB/b.jpg",
+          "desc":"lurem 1",
+          "href":"/"
+        }
+      ]
+    }
+  ]
+}

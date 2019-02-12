@@ -1,0 +1,72 @@
+{
+  "prod" : [
+    {
+      "id": "lm009",
+      "name": "Prod 9",
+      "title_cat": "title 2",
+      "available": true,
+      "title": "title 2",
+      "desc" : "lorem 9",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 9,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
+    },
+    {
+      "id": "lm010",
+      "name": "Prod 10",
+      "title_cat": "architect",
+      "available": true,
+      "desc" : "lorem 10",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 10,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
+    }
+  ],
+  "titles": [
+    {
+      "display": "Architect",
+      "key" : "architect"
+    },
+    {
+      "display": "Designer",
+      "key" : "designer"
+    },
+    {
+      "display": "Contractor",
+      "key" : "contractor"
+    },
+    {
+      "display": "Support Stuff",
+      "key" : "staff"
+    }
+  ],
+  "pageInfo" : [
+    {
+      "totalContent" : 10,
+      "contentPerPage" : 5,
+      "headTitle" : "Category 1",
+      "pagination" : [
+        {
+          "totalItems" : 50,
+          "itemsPerPage" : 5,
+          "nextUrl" : "/pages/listing/cat02",
+          "prevUrl" : "/pages/listing/cat0",
+          "urls" : [
+            {
+              "id" : "0",
+              "href" : "/pages/listing/cat0"
+            },
+            {
+              "id" : "1",
+              "href" : "/pages/listing/cat01"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

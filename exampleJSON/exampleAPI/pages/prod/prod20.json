@@ -1,0 +1,14 @@
+{
+  "prod":[
+    {
+      "prodName":"گوشی20",
+      "isAvailable" : true,
+      "price":"۱۵۰۰۰۰",
+      "description":"گوشی اپل",
+      "photos" : [],
+      "colors" : ["silver","gold"],
+      "rates" : 5,
+      "comments" : ["خوب","عالی"]
+    }
+  ]
+}
