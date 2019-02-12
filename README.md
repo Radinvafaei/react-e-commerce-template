@@ -1,6 +1,6 @@
 ### `npm install`
 
-Run npm install to insall node modules
+Run npm install to install node modules
 
 ### `npm start`
 
