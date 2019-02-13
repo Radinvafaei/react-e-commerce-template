@@ -1,11 +1,11 @@
-import React , { Component } from 'react';
+import React  from 'react';
 import { HashRouter , Link } from 'react-router-dom';
 import Prod from '../Prod/prod';
 import next from '../../../assets/images/next.svg';
 import prev from '../../../assets/images/prev.svg'
-class Pagination extends Component {
-    render(){
-        const { prod , urls , nextUrl , prevUrl } = this.props;
+function Pagination(props){
+
+        const { prod , urls , nextUrl , prevUrl } = props;
         return(
             <div className={"results row"}>
                 {prod.map(prd => (
@@ -34,6 +34,6 @@ class Pagination extends Component {
                 </HashRouter>
             </div>
         )
-    }
+
 }
 export default Pagination
