@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Swiper from 'react-id-swiper';
 import { HashRouter } from "react-router-dom";
 import Prod from '../../global/Prod/prod';
+import axios from 'axios';
 class Home extends Component {
     constructor(props){
         super(props);
@@ -29,8 +30,8 @@ class Home extends Component {
     componentDidMount(){
         document.title = "Main";
         const { carouselSettings } = this.state;
-        fetch("http://localhost:8888/exampleAPI/pages/home.json")
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI/pages/home.json")
+            .then(res => res.data)
             .then(
                 (result) => {
                     this.setState({

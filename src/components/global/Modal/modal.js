@@ -31,11 +31,11 @@ class Modal extends Component {
             return null
         }
         return(
-            <div className={"modal"}>
-                <div className={"modal-dialog"}>
-                    <div className={"modal-content"}>
-                        <div className={"modal-header"}>
-                            <button type="button" className={"btn btn-danger"} onClick={(e) => {this.closeModal(e)}}>&times;</button>
+            <div className="modal">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <button type="button" className="btn btn-danger" onClick={(e) => {this.closeModal(e)}}>&times;</button>
                         </div>
                         <div className={"modal-body"}>
                             {this.props.children}

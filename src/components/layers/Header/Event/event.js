@@ -1,5 +1,6 @@
 import React , {Component} from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 class Event extends Component{
     constructor(props){
         super(props);
@@ -28,8 +29,8 @@ class Event extends Component{
         this.setState({time : time})
     }
     componentDidMount(){
-        fetch("http://localhost:8888/exampleAPI/layers/event.json")
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI/layers/event.json")
+            .then(res => res.data)
             .then(
                 (result) => {
                     this.setState({
@@ -48,7 +49,7 @@ class Event extends Component{
         clearInterval(this.intervalId);
     }
     render(){
-        const {show , backgroundImg , desc , timer , time} = this.state;
+        const { show , backgroundImg , desc , timer , time} = this.state;
         if (!show){
             return null
         }

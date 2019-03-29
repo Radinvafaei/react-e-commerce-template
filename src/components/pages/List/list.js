@@ -1,5 +1,6 @@
 import React , { Component } from 'react';
 import Pagination from '../../global/Pagination/pagination';
+import axios from 'axios';
 function Filters(props) {
     let titles = props.titles;
     function updateName(evt) {
@@ -88,8 +89,8 @@ class List extends Component {
         })
     }
     connection = (api) => {
-        fetch("http://localhost:8888/exampleAPI"+api)
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI"+api)
+            .then(res => res.data)
             .then(
                 (result) => {
                     this.setState({

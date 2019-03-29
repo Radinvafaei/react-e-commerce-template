@@ -16,8 +16,8 @@ class User extends Component {
         this.onSubmit = this.onSubmit.bind(this);
     }
     componentDidMount(){
-        fetch("http://localhost:8888/exampleAPI/user.json")
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI/user.json")
+            .then(res => res.data)
             .then(
                 (result) => {
                     this.setState({

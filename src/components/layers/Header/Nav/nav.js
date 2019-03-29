@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import {
-    NavLink
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Modal from "../../../global/Modal/modal";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import DropDown from "./DropDown/dropdown";
 import Login from "./Login/login";
 import Signup from "./Signup/signup";
+import axios from 'axios';
 //import { InstantSearch } from "react-instantsearch-dom";
 class Nav extends Component{
     constructor(props){
@@ -23,8 +22,8 @@ class Nav extends Component{
         this.shwModal = this.shwModal.bind(this)
     }
     componentDidMount(){
-        fetch("http://localhost:8888/exampleAPI/layers/nav.json")
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI/layers/nav.json")
+            .then(res => res.data)
             .then(
                 (result) => {
                     this.setState({

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter , Link} from "react-router-dom";
+import axios from 'axios';
 class Basket extends Component{
     constructor(props){
         super(props);
@@ -10,8 +11,8 @@ class Basket extends Component{
     }
     componentDidMount(){
         document.title = "basket";
-        fetch("http://localhost:8888/exampleAPI/pages/basket.json")
-            .then(res => res.json())
+        axios.get("http://localhost:8888/exampleAPI/pages/basket.json")
+            .then(res => res.data)
             .then((result) => {
                 this.setState({
                     basket : result.basket

@@ -29,12 +29,12 @@
   ],
   "description": "react template",
   "keywords": [
-		"react",
-		"e-commerce",
-		"bootstrap",
-		"e-commerce template",
-		"SPA"
-	],
+    "react",
+    "e-commerce",
+    "bootstrap",
+    "e-commerce template",
+    "SPA"
+  ],
   "author": "Radin vafaei <radin.vafaei@icloud.com>",
   "license": "MIT"
 }
