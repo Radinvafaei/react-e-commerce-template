@@ -2,92 +2,135 @@
   "prod" : [
     {
       "id": "lm001",
-      "name": "sony Luis Salvador, MLA",
-      "title_cat": "architect",
+      "name": "Prod 1",
+      "title_cat": "title 1",
       "available": false,
-      "title": "Principal Landscape Architect",
-      "desc" : "Tony grew up engulfed by the business of landscape design, working most summers with his father, Roberto, at Leaf & Mortar, and with every passing year he knew more and more that he wanted to walk in his father’s footsteps. Roberto, however, was adamant that Tony attend college before settling upon a career. They compromised and Tony set out to study landscape architecture.  After graduating in the top of his class with both a BLA and MLA from University of Oregon, in Eugene, Tony was ready and excited to commit to the family business. Tony’s contributions have included bringing in various public beautification and sustainable design projects that continue to make Portland a progressive, eco-friendly city, and have put Leaf & Mortar on the map for “Small Local Companies with a Big Heart.",
-      "img": "../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/tony_salvador-300x300.jpg",
-      "order": 0
+      "desc" : "lorem 1",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 0,
+      "href": "/pages/prod/prod0",
+      "oldPrice":5000,
+      "newPrice":3000
     },
     {
       "id": "lm002",
-      "name": "AILENE MCDOTT, MS, APLD",
-      "title_cat": "designer",
+      "name": "Prod 2",
+      "title_cat": "title 2",
       "available": false,
-      "title": "landscape designer",
-      "desc" : "Ailene grew up surrounded by green hills and marshlands in Scotland, and although that lush emerald richness is what first enticed her into landscape design, it was, ironically, her interest in water conservation that made her consider it as a serious career.  After completing her undergraduate studies at the University of Glasgow, she moved to California where she received her masters in Ecological Management and Restoration, and began freelancing with various landscape companies. After building up a healthy portfolio of prestigious landscape restoration projects in California’s drought-stricken environment, Ailene was granted membership into the Association of Professional Landscape Designers. Since then, she’s been a key member of our team, and has turned many green yards, into water-friendly rock gardens.",
-      "img": "../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Ailene_McDott-300x300.jpg",
-      "order": 1
+      "desc" : "lorem 2",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 1,
+      "href": "/pages/prod/prod1",
+      "oldPrice":5000,
+      "newPrice":3000
     },
     {
       "id": "lm003",
-      "name": "KRISTIANN NGU, MFA, APLD",
-      "title_cat": "designer",
-      "available": false,
-      "title": "LANDSCAPE DESIGNER",
-      "desc" : "The daughter of a painter mother and a sculptor father, meant Kristiann was destined to be artistic, but what form that would take was a mystery to her family until she was 9. Suddenly, she became interested in the local community gardens, and had her very own plot at the age of 11. Her intricate weavings of local produce, ground covers, and wildflowers became a point of interest in the community. In fact, visitors, in search of gardening and landscape design tips, would swarm to her plot in numbers. By the age of 15, she was speaking at weekend landscape design workshops. Kristiann continued to hone her landscaping skills during summers and breaks away from her MFA program at NYU, and received her APLD shortly after graduation. Kristiann is responsible for designing some of the most exotic and pristine landscapes in the Portland area, where she applies her impressive skills in color and balance to the landscape, like a painter commits paint to the canvas.",
-      "img": "../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/kristiann_ng-300x300.jpg",
-      "order": 2
+      "name": "Prod 3",
+      "title_cat": "title 2",
+      "available": true,
+      "desc" : "lorem 3",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 2,
+      "href": "/pages/prod/prod2",
+      "oldPrice":5000,
+      "newPrice":3000
     },
     {
       "id": "lm004",
-      "name": "GEENA DRAPER, MS",
-      "title_cat": "designer",
+      "name": "Prod 4",
+      "title_cat": "title 2",
       "available": false,
-      "title": "HORTICULTURIST",
-      "desc" : "There’s no logic that truly explains Geena’s keen interest in plants or her uncanny ability to cultivate original and viable plant stock. Her mother was a banker and her father, an accountant, and most of her siblings work in the finance industry, too. Perhaps the only commonality is that money and plants are both green. In any event, Geena excels at understanding plant growth, creating new and enticing strains of plants that are resistant to disease and drought, and finding or growing the perfect plants for every situation. We are fortunate to have lured Geena away from her work as an educational horticulturist at Portland State University, to her current role as resident plant specialist for Leaf & Mortar.",
-      "img": "../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Geena-Draper-300x300.jpg",
-      "order": 3
+      "desc" : "lorem 4",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 3,
+      "href": "/pages/prod/prod3",
+      "oldPrice":5000,
+      "newPrice":3000
     },
     {
       "id": "lm005",
-      "name": "ARNOLD RICKSHAW, CGP",
-      "title_cat": "contractor",
+      "name": "Prod 5",
+      "title_cat": "title 4",
+      "available": true,
+      "desc" : "lorem 5",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 4,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
+    },
+    {
+      "id": "lm006",
+      "name": "Prod 6",
+      "title_cat": "title 2",
+      "available": true,
+      "title": "title 2",
+      "desc" : "lorem 6",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 5,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
+    },
+    {
+      "id": "lm007",
+      "name": "Prod 7",
+      "title_cat": "architect",
+      "available": true,
+      "desc" : "lorem 7",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 6,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
+    },
+    {
+      "id": "lm008",
+      "name": "Prod 8",
+      "title_cat": "title 2",
       "available": false,
-      "title": "GENERAL CONTRACTOR",
-      "desc" : "Arnold has 35 years experience in general and landscape contracting, and is a Certified Green Professional, however the real reason we hired him is that he’s simply the sharpest, nicest, and most conscientious builder we’ve come across in the whole of Portland. Arnold is truly passionate about the building process, yet he cares deeply about the environment and the effects of construction on natural habitat, and has lead a dozen medium to large-scale habitat restoration projects over the length of his career. With Arnold at the helm of our construction crew, you can be assured that the beautiful landscape you desire won’t be gained at the expense of natural habitat or wildlife, but rather, in harmony, with existing natural conditions.",
-      "img": "../../../business.wpdiy.net/wp/wp-content/uploads/2015/04/Arnold_Rickshaw-300x300.jpg",
-      "order": 4
+      "desc" : "lorem 8",
+      "img": "http://localhost:8888/exampleDB/prods/react.png",
+      "order": 7,
+      "href": "/pages/prod/prod04",
+      "oldPrice":5000,
+      "newPrice":3000
     }
   ],
   "titles": [
     {
-      "display": "Architect",
-      "key" : "architect"
+      "display": "Title 1",
+      "key" : "title 1"
     },
     {
-      "display": "Designer",
-      "key" : "designer"
+      "display": "Title 2",
+      "key" : "title 2"
     },
     {
-      "display": "Contractor",
-      "key" : "contractor"
+      "display": "Title 3",
+      "key" : "title 3"
     },
     {
-      "display": "Support Stuff",
-      "key" : "staff"
+      "display": "Title 4",
+      "key" : "title 4"
     }
   ],
   "pageInfo" : [
     {
-      "totalContent" : 10,
-      "contentPerPage" : 5,
-      "headTitle" : "دسته ۲",
+      "headTitle" : "Category 1",
       "pagination" : [
         {
-          "totalItems" : 50,
-          "itemsPerPage" : 5,
-          "nextUrl" : "/cat01",
-          "prevUrl" : "/cat0",
+          "nextUrl" : "/pages/listing/cat01",
+          "prevUrl" : "/pages/listing/cat0",
           "urls" : [
             {
               "id" : "0",
-              "href" : "/cat0"
+              "href" : "/pages/listing/cat0"
             },
             {
               "id" : "1",
-              "href" : "/cat01"
+              "href" : "/pages/listing/cat01"
             }
           ]
         }
